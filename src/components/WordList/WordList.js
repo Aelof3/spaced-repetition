@@ -11,7 +11,7 @@ class WordList extends Component {
 
   render() {
     return (
-      <div className="worldlist-div">
+      <div className="wordlist-div">
         {this.context.words.length === 0 ? (
           <div className="list">
             <p>No Words found for this language</p>

@@ -5,7 +5,6 @@ class Word extends Component {
   static contextType = UserContext;
   render() {
     const { word } = this.props;
-    console.log(word);
     return (
       <div className="word">
         <ul>
