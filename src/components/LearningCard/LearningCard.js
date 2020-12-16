@@ -8,7 +8,7 @@ class LearningCard extends Component {
       <div className="learn-card">
         <h2 className="learn-header">Translate the word:</h2>
         <span className="word-container">{word.nextWord}</span>
-        <main>
+        <section>
           <LearningForm
             word={word}
             setPrompt={setPrompt}
@@ -31,7 +31,7 @@ class LearningCard extends Component {
               times.
             </p>
           </div>
-        </main>
+        </section>
       </div>
     );
   }
